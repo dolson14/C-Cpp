@@ -1,17 +1,14 @@
-/******************************************************************************
- *                                                                            *
- * ex2-6.c                                                                    *
- *                                                                            *
- * Write a program that creates an integer variable called senses. Have the   *
- * program set senses to 6. Also have the program calculate what 1/3 of       *
- * senses is and what senses cubed is. The program should print all three     *
- * values, identifying them.                                                  *
- *                                                                            *
- ******************************************************************************/
+/** ex2-6.c
+ *
+ *  Write a program that creates an integer variable called senses. Have the
+ *  program set senses to 6. Also have the program calculate what 1/3 of
+ *  senses is and what senses cubed is. The program should print all three
+ *  values, identifying them.
+ */
 
 #include <stdio.h>
 
-/*  main()
+/** main()
  *      Set the senses variable, do some math, and print the result.
  */
 int main(void)

@@ -1,15 +1,12 @@
-/******************************************************************************
- *                                                                            *
- * ex2-2.c                                                                    *
- *                                                                            *
- * Write a program that converts the age of the U.S.A. in years to hours and  *
- * displays both values. Don't worry about fractional years or leap-years.    *
- *                                                                            *
- ******************************************************************************/
+/** ex2-2.c
+ *
+ *  Write a program that converts the age of the U.S.A. in years to hours and
+ *  displays both values. Don't worry about fractional years or leap-years.
+ */
 
 #include <stdio.h>
 
-/*  main()
+/** main()
  *      Find the current age of the USA.
  *      Convert to hours.
  */

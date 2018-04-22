@@ -1,14 +1,11 @@
-/******************************************************************************
- *                                                                            *
- * ex2-2.c                                                                    *
- *                                                                            *
- * Write a program to print the address of the White House.                   *
- *                                                                            *
- ******************************************************************************/
+/** ex2-2.c
+ *
+ *  Write a program to print the address of the White House.
+ */
 
 #include <stdio.h>
 
-/*  main()
+/** main()
  *      Simple printf() statements write out the White House address.
  */
 int main(void)

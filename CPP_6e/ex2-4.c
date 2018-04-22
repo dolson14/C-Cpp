@@ -1,17 +1,14 @@
-/******************************************************************************
- *                                                                            *
- * ex2-4.c                                                                    *
- *                                                                            *
- * Write a program that produces the following output:                        *
- *      Happy birthday to you!                                                *
- *      Happy birthday to you!                                                *
- *      Happy birthday, dear programmer!                                      *
- *      Happy birthday to you!                                                *
- * Have the program use two user-defined functions in addition to main():     *
- * one named happy() that prints the "Happy birthday" line, and one named     *
- * dear() to print the "dear programmer" line.                                *
- *                                                                            *
- ******************************************************************************/
+/** ex2-4.c
+ *
+ *  Write a program that produces the following output:
+ *      Happy birthday to you!
+ *      Happy birthday to you!
+ *      Happy birthday, dear programmer!
+ *      Happy birthday to you!
+ *  Have the program use two user-defined functions in addition to main():
+ *  one named happy() that prints the "Happy birthday" line, and one named
+ *  dear() to print the "dear programmer" line.
+ */
 
 #include <stdio.h>
 
@@ -19,7 +16,7 @@
 void happy(void);
 void dear(void);
 
-/*  main()
+/** main()
  *      Print the song lines in order.
  */
 int main(void)
@@ -32,7 +29,7 @@ int main(void)
     return 0;
 } // main()
 
-/*  happy()
+/** happy()
  *      print "Happy birthday to you!"
  */
 void happy(void)
@@ -40,7 +37,7 @@ void happy(void)
     printf("Happy birthday to you!\n");
 } // happy()
 
-/*  dear()
+/** dear()
  *      print("Happy birthday, dear programmer!"
  */
 void dear(void)
